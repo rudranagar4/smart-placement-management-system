@@ -136,7 +136,9 @@ export default function ResumeBuilder() {
             <span>•</span>
             <span>{student.branch}</span>
             <span>•</span>
-            <span className="font-bold text-indigo-700 font-mono">CGPA: {student.cgpa}</span>
+            <span className="font-mono font-semibold text-slate-700">Roll: {student.rollNo || '0251csds289'}</span>
+            <span>•</span>
+            <span className="font-bold text-indigo-700 font-mono">CGPA: {student.cgpa || 9.1}</span>
           </div>
 
           <div className="mt-1 flex items-center justify-center gap-4 text-xs text-indigo-700 font-medium">
@@ -165,8 +167,8 @@ export default function ResumeBuilder() {
             <span>2022 – 2026</span>
           </div>
           <div className="flex items-center justify-between text-xs text-slate-600 mt-0.5">
-            <span>National Institute of Technology / University Campus</span>
-            <span className="font-bold text-slate-900">Cumulative CGPA: {student.cgpa} / 10.0</span>
+            <span>Roll No: {student.rollNo || '0251csds289'} • National Institute of Technology</span>
+            <span className="font-bold text-slate-900">Cumulative CGPA: {student.cgpa || 9.1} / 10.0</span>
           </div>
           <div className="mt-1 text-[11px] text-slate-500">
             Class XII (Senior Secondary): {student.twelfthMarks}% • Class X (Secondary): {student.tenthMarks}%

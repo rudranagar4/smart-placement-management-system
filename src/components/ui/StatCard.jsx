@@ -31,23 +31,25 @@ export default function StatCard({ title, value, subtext, icon: Icon, trend, col
   }, [value]);
 
   const colorStyles = {
-    terracotta: 'from-[#C25E38]/12 via-[#D97706]/5 to-transparent text-[#C25E38] border-[#C25E38]/25',
-    indigo: 'from-[#C25E38]/12 via-[#D97706]/5 to-transparent text-[#C25E38] border-[#C25E38]/25',
-    emerald: 'from-[#2D5A43]/12 via-[#2D5A43]/5 to-transparent text-[#2D5A43] dark:text-emerald-400 border-[#2D5A43]/25',
-    sage: 'from-[#2D5A43]/12 via-[#2D5A43]/5 to-transparent text-[#2D5A43] dark:text-emerald-400 border-[#2D5A43]/25',
-    amber: 'from-[#D97706]/12 via-[#C25E38]/5 to-transparent text-[#D97706] border-[#D97706]/25',
-    rose: 'from-[#9C3D28]/12 via-[#C25E38]/5 to-transparent text-[#9C3D28] dark:text-rose-400 border-[#9C3D28]/25',
-    cyan: 'from-[#4A6B82]/12 via-[#C25E38]/5 to-transparent text-[#4A6B82] dark:text-sky-400 border-[#4A6B82]/25',
+    terracotta: 'from-orange-500/15 via-orange-500/5 to-transparent text-orange-600 dark:text-orange-400 border-orange-200/90 dark:border-orange-500/30',
+    indigo: 'from-indigo-500/15 via-indigo-500/5 to-transparent text-indigo-600 dark:text-indigo-400 border-indigo-200/90 dark:border-indigo-500/30',
+    emerald: 'from-emerald-500/15 via-emerald-500/5 to-transparent text-emerald-600 dark:text-emerald-400 border-emerald-200/90 dark:border-emerald-500/30',
+    sage: 'from-emerald-500/15 via-teal-500/5 to-transparent text-emerald-600 dark:text-emerald-400 border-emerald-200/90 dark:border-emerald-500/30',
+    amber: 'from-amber-500/15 via-amber-500/5 to-transparent text-amber-600 dark:text-amber-400 border-amber-200/90 dark:border-amber-500/30',
+    rose: 'from-rose-500/15 via-rose-500/5 to-transparent text-rose-600 dark:text-rose-400 border-rose-200/90 dark:border-rose-500/30',
+    cyan: 'from-cyan-500/15 via-sky-500/5 to-transparent text-cyan-600 dark:text-cyan-400 border-cyan-200/90 dark:border-cyan-500/30',
+    purple: 'from-purple-500/15 via-purple-500/5 to-transparent text-purple-600 dark:text-purple-400 border-purple-200/90 dark:border-purple-500/30',
   };
 
   const iconBg = {
-    terracotta: 'bg-[#C25E38]/10 text-[#C25E38]',
-    indigo: 'bg-[#C25E38]/10 text-[#C25E38]',
-    emerald: 'bg-[#2D5A43]/10 text-[#2D5A43] dark:text-emerald-400',
-    sage: 'bg-[#2D5A43]/10 text-[#2D5A43] dark:text-emerald-400',
-    amber: 'bg-[#D97706]/10 text-[#D97706]',
-    rose: 'bg-[#9C3D28]/10 text-[#9C3D28] dark:text-rose-400',
-    cyan: 'bg-[#4A6B82]/10 text-[#4A6B82] dark:text-sky-400',
+    terracotta: 'bg-orange-500/15 text-orange-600 dark:text-orange-400 ring-1 ring-orange-500/20',
+    indigo: 'bg-indigo-500/15 text-indigo-600 dark:text-indigo-400 ring-1 ring-indigo-500/20',
+    emerald: 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 ring-1 ring-emerald-500/20',
+    sage: 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 ring-1 ring-emerald-500/20',
+    amber: 'bg-amber-500/15 text-amber-600 dark:text-amber-400 ring-1 ring-amber-500/20',
+    rose: 'bg-rose-500/15 text-rose-600 dark:text-rose-400 ring-1 ring-rose-500/20',
+    cyan: 'bg-cyan-500/15 text-cyan-600 dark:text-cyan-400 ring-1 ring-cyan-500/20',
+    purple: 'bg-purple-500/15 text-purple-600 dark:text-purple-400 ring-1 ring-purple-500/20',
   };
 
   return (

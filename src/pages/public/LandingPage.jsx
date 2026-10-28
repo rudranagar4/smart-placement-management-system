@@ -81,7 +81,7 @@ export default function LandingPage({ setActivePage }) {
       role: 'Placed at Google (42 LPA)',
       branch: 'B.Tech CSE 2026',
       quote: 'Ascend made the entire Google drive effortless. From instant eligibility alerts to interview slot booking and receiving the final offer letter with full salary transparency!',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80'
+      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
     },
     {
       name: 'Priya Patel',
@@ -203,6 +203,7 @@ export default function LandingPage({ setActivePage }) {
               <div className="p-4 rounded-xl border border-stone-200/70 dark:border-stone-800 bg-white/70 dark:bg-stone-950/40">
                 <div className="text-xs text-stone-500">Student Profile Match</div>
                 <div className="text-lg font-bold text-stone-900 dark:text-white mt-1">Rudra Nagar (9.1 CGPA)</div>
+                <div className="text-[11px] font-mono text-stone-500 dark:text-stone-400">Roll: 0251csds289 • CSE Sem 8</div>
                 <div className="text-xs text-[#2D5A43] dark:text-emerald-400 mt-2 flex items-center gap-1">
                   <CheckCircle2 className="w-3.5 h-3.5" /> Eligible for 100% of Tier-1 Drives
                 </div>

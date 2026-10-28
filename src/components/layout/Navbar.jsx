@@ -184,7 +184,7 @@ export default function Navbar({ activePage, setActivePage }) {
                     <User className="w-4 h-4 text-indigo-500" />
                     <div>
                       <div>Student Portal</div>
-                      <div className="text-[10px] text-amber-800/70 dark:text-amber-200/70">Rudra Nagar (9.1 CGPA)</div>
+                      <div className="text-[10px] text-amber-800/80 dark:text-amber-200/80 font-mono">Rudra Nagar (0251csds289 • 9.1 CGPA)</div>
                     </div>
                   </button>
                   <button
@@ -306,7 +306,7 @@ export default function Navbar({ activePage, setActivePage }) {
                 className="flex items-center gap-2 pl-2 border-l border-slate-200 dark:border-slate-800 cursor-pointer"
               >
                 <img
-                  src={currentUser.avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100'}
+                  src={currentUser.avatar || 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100'}
                   alt={currentUser.name}
                   className="w-8 h-8 rounded-full object-cover ring-2 ring-indigo-500/30"
                 />

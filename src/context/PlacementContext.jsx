@@ -40,7 +40,17 @@ export function PlacementProvider({ children }) {
     const savedUser = localStorage.getItem('ascend_user');
     if (savedUser) {
       try {
-        return JSON.parse(savedUser);
+        const parsed = JSON.parse(savedUser);
+        if (parsed.id === 'std-101' || parsed.role === 'student') {
+          return {
+            ...parsed,
+            name: 'Rudra Nagar',
+            rollNo: '0251csds289',
+            cgpa: 9.1,
+            avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
+          };
+        }
+        return parsed;
       } catch {
         // fallback
       }
@@ -50,9 +60,11 @@ export function PlacementProvider({ children }) {
       role: 'student',
       id: 'std-101',
       name: 'Rudra Nagar',
+      rollNo: '0251csds289',
+      cgpa: 9.1,
       email: 'rudra.nagar@campus.edu',
       branch: 'Computer Science & Engineering',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80'
+      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
     };
   });
 
@@ -70,7 +82,16 @@ export function PlacementProvider({ children }) {
     }
   };
 
-  const [students, setStudents] = useState(() => loadStored('ascend_students', INITIAL_STUDENTS));
+  const [students, setStudents] = useState(() => {
+    const loaded = loadStored('ascend_students', INITIAL_STUDENTS);
+    return loaded.map(s => s.id === 'std-101' ? {
+      ...s,
+      name: 'Rudra Nagar',
+      rollNo: '0251csds289',
+      cgpa: 9.1,
+      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
+    } : s);
+  });
   const [companies, setCompanies] = useState(() => loadStored('ascend_companies', INITIAL_COMPANIES));
   const [drives, setDrives] = useState(() => loadStored('ascend_drives', INITIAL_DRIVES));
   const [applications, setApplications] = useState(() => loadStored('ascend_applications', INITIAL_APPLICATIONS));
@@ -110,6 +131,8 @@ export function PlacementProvider({ children }) {
         name: std.name,
         email: std.email,
         branch: std.branch,
+        rollNo: std.rollNo || '0251csds289',
+        cgpa: std.cgpa || 9.1,
         avatar: std.avatar
       });
     } else if (role === 'company') {

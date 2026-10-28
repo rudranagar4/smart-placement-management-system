@@ -24,10 +24,10 @@ export default function StudentProfile() {
 
   const [savedSuccess, setSavedSuccess] = useState(false);
   const [formData, setFormData] = useState({
-    name: student.name || '',
-    rollNo: student.rollNo || '',
-    email: student.email || '',
-    phone: student.phone || '',
+    name: student.name || 'Rudra Nagar',
+    rollNo: student.rollNo || '0251csds289',
+    email: student.email || 'rudra.nagar@campus.edu',
+    phone: student.phone || '+91 98765 43210',
     branch: student.branch || 'Computer Science & Engineering',
     semester: student.semester || 8,
     cgpa: student.cgpa || 9.1,
@@ -37,7 +37,7 @@ export default function StudentProfile() {
     skills: (student.skills || []).join(', '),
     linkedin: student.linkedin || '',
     github: student.github || '',
-    avatar: student.avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150'
+    avatar: student.avatar || 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
   });
 
   const [projects, setProjects] = useState(student.projects || []);

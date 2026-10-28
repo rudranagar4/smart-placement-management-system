@@ -17,17 +17,17 @@ export default function RegisterPage({ setActivePage }) {
 
   // Student form state
   const [stdData, setStdData] = useState({
-    rollNo: '21BCE1299',
-    name: 'Devika Krishnan',
-    email: 'devika.k@campus.edu',
-    phone: '+91 98450 12345',
+    rollNo: '0251csds289',
+    name: 'Rudra Nagar',
+    email: 'rudra.nagar@campus.edu',
+    phone: '+91 98765 43210',
     branch: 'Computer Science & Engineering',
     semester: 8,
-    cgpa: 8.75,
-    tenthMarks: 93.0,
-    twelfthMarks: 91.5,
+    cgpa: 9.1,
+    tenthMarks: 94.5,
+    twelfthMarks: 92.8,
     backlogs: 0,
-    skills: 'React, Python, SQL, C++',
+    skills: 'React, Node.js, Python, Java, System Design',
     password: 'password123'
   });
 
@@ -59,7 +59,7 @@ export default function RegisterPage({ setActivePage }) {
       projects: [],
       internships: [],
       achievements: [],
-      avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80',
+      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80',
       resumeUrl: '#',
       verified: true
     };

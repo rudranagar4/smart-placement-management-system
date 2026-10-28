@@ -91,7 +91,7 @@ export default function StudentDashboard({ setActivePage }) {
       >
         <div className="flex items-center gap-4">
           <img
-            src={student.avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150'}
+            src={student.avatar || 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'}
             alt={student.name}
             className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover ring-4 ring-[#C25E38]/40 shadow-lg"
           />
@@ -107,10 +107,10 @@ export default function StudentDashboard({ setActivePage }) {
               )}
             </div>
             <p className="text-xs sm:text-sm text-stone-300 mt-1">
-              {student.branch} • Sem {student.semester} • <strong className="text-[#F5EFEB] font-mono">{student.cgpa} CGPA</strong>
+              {student.branch} • Sem {student.semester} • <strong className="text-[#F5EFEB] font-mono">{student.cgpa || 9.1} CGPA</strong>
             </p>
             <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
-              <span className="text-[#C25E38] font-mono text-[11px]">Roll: {student.rollNo}</span>
+              <span className="text-[#C25E38] font-mono text-[11px]">Roll: {student.rollNo || '0251csds289'}</span>
               <span className="text-stone-500">•</span>
               <span className="text-[#D97706] font-semibold">{myOffers.length} Active Offers</span>
             </div>
