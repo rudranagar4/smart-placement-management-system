@@ -47,7 +47,7 @@ export function PlacementProvider({ children }) {
             name: 'Rudra Nagar',
             rollNo: '0251csds289',
             cgpa: 9.1,
-            avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
+            avatar: '/rudra-avatar.png'
           };
         }
         return parsed;
@@ -64,7 +64,7 @@ export function PlacementProvider({ children }) {
       cgpa: 9.1,
       email: 'rudra.nagar@campus.edu',
       branch: 'Computer Science & Engineering',
-      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
+      avatar: '/rudra-avatar.png'
     };
   });
 
@@ -89,7 +89,7 @@ export function PlacementProvider({ children }) {
       name: 'Rudra Nagar',
       rollNo: '0251csds289',
       cgpa: 9.1,
-      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
+      avatar: '/rudra-avatar.png'
     } : s);
   });
   const [companies, setCompanies] = useState(() => loadStored('ascend_companies', INITIAL_COMPANIES));

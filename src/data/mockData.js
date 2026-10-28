@@ -5,7 +5,7 @@ export const INITIAL_STUDENTS = [
     name: "Rudra Nagar",
     email: "rudra.nagar@campus.edu",
     phone: "+91 98765 43210",
-    avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+    avatar: "/rudra-avatar.png",
     branch: "Computer Science & Engineering",
     semester: 8,
     cgpa: 9.1,

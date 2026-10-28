@@ -81,7 +81,7 @@ export default function LandingPage({ setActivePage }) {
       role: 'Placed at Google (42 LPA)',
       branch: 'B.Tech CSE 2026',
       quote: 'Ascend made the entire Google drive effortless. From instant eligibility alerts to interview slot booking and receiving the final offer letter with full salary transparency!',
-      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
+      avatar: '/rudra-avatar.png'
     },
     {
       name: 'Priya Patel',

@@ -306,7 +306,7 @@ export default function Navbar({ activePage, setActivePage }) {
                 className="flex items-center gap-2 pl-2 border-l border-slate-200 dark:border-slate-800 cursor-pointer"
               >
                 <img
-                  src={currentUser.avatar || 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100'}
+                  src={currentUser.avatar || '/rudra-avatar.png'}
                   alt={currentUser.name}
                   className="w-8 h-8 rounded-full object-cover ring-2 ring-indigo-500/30"
                 />

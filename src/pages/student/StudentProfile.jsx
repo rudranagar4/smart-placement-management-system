@@ -37,7 +37,7 @@ export default function StudentProfile() {
     skills: (student.skills || []).join(', '),
     linkedin: student.linkedin || '',
     github: student.github || '',
-    avatar: student.avatar || 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'
+    avatar: student.avatar || '/rudra-avatar.png'
   });
 
   const [projects, setProjects] = useState(student.projects || []);

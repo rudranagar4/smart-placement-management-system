@@ -91,7 +91,7 @@ export default function StudentDashboard({ setActivePage }) {
       >
         <div className="flex items-center gap-4">
           <img
-            src={student.avatar || 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80'}
+            src={student.avatar || '/rudra-avatar.png'}
             alt={student.name}
             className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover ring-4 ring-[#C25E38]/40 shadow-lg"
           />

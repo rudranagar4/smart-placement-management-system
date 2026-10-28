@@ -59,7 +59,7 @@ export default function RegisterPage({ setActivePage }) {
       projects: [],
       internships: [],
       achievements: [],
-      avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80',
+      avatar: '/rudra-avatar.png',
       resumeUrl: '#',
       verified: true
     };
