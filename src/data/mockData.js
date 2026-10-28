@@ -1,14 +1,14 @@
 export const INITIAL_STUDENTS = [
   {
     id: "std-101",
-    rollNo: "21BCE1042",
+    rollNo: "0251csds289",
     name: "Rudra Nagar",
     email: "rudra.nagar@campus.edu",
     phone: "+91 98765 43210",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
     branch: "Computer Science & Engineering",
     semester: 8,
-    cgpa: 8.92,
+    cgpa: 9.1,
     tenthMarks: 94.5,
     twelfthMarks: 92.8,
     backlogs: 0,

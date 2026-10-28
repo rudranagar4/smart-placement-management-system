@@ -202,7 +202,7 @@ export default function LandingPage({ setActivePage }) {
             <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 rounded-xl border border-stone-200/70 dark:border-stone-800 bg-white/70 dark:bg-stone-950/40">
                 <div className="text-xs text-stone-500">Student Profile Match</div>
-                <div className="text-lg font-bold text-stone-900 dark:text-white mt-1">Rudra Nagar (8.9 CGPA)</div>
+                <div className="text-lg font-bold text-stone-900 dark:text-white mt-1">Rudra Nagar (9.1 CGPA)</div>
                 <div className="text-xs text-[#2D5A43] dark:text-emerald-400 mt-2 flex items-center gap-1">
                   <CheckCircle2 className="w-3.5 h-3.5" /> Eligible for 100% of Tier-1 Drives
                 </div>

@@ -163,7 +163,7 @@ export default function ContactPage() {
                     value={formData.rollNo}
                     onChange={(e) => setFormData({ ...formData, rollNo: e.target.value })}
                     className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
-                    placeholder="e.g. 21BCE1042 / Google HR"
+                    placeholder="e.g. 0251csds289 / Google HR"
                   />
                 </div>
               </div>

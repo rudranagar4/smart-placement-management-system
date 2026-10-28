@@ -184,7 +184,7 @@ export default function Navbar({ activePage, setActivePage }) {
                     <User className="w-4 h-4 text-indigo-500" />
                     <div>
                       <div>Student Portal</div>
-                      <div className="text-[10px] text-amber-800/70 dark:text-amber-200/70">Rudra Nagar (8.9 CGPA)</div>
+                      <div className="text-[10px] text-amber-800/70 dark:text-amber-200/70">Rudra Nagar (9.1 CGPA)</div>
                     </div>
                   </button>
                   <button

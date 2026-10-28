@@ -30,7 +30,7 @@ export default function StudentProfile() {
     phone: student.phone || '',
     branch: student.branch || 'Computer Science & Engineering',
     semester: student.semester || 8,
-    cgpa: student.cgpa || 8.92,
+    cgpa: student.cgpa || 9.1,
     tenthMarks: student.tenthMarks || 94.5,
     twelfthMarks: student.twelfthMarks || 92.8,
     backlogs: student.backlogs || 0,

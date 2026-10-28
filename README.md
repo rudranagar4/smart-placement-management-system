@@ -84,7 +84,7 @@ Use the **Role Switcher** pill in the top-right navbar to test each perspective:
 
 | Role | Demo Identity | Sample Capabilities |
 |---|---|---|
-| **Student** | Rudra Nagar (8.92 CGPA) | Browse drives, 1-click apply, view timeline, accept Google offer with confetti, build resume |
+| **Student** | Rudra Nagar (9.1 CGPA) | Browse drives, 1-click apply, view timeline, accept Google offer with confetti, build resume |
 | **Recruiter** | Priya Nair (Google HR) | View applicants, advance stages, schedule interviews, post drives |
 | **Admin** | Dr. K. S. Verma (Head, T&P) | Approve recruiters, verify students, monitor placement analytics, broadcast notices |
 | **Public** | Guest Visitor | Landing page, placement statistics, recruiters catalog, about, contact |
