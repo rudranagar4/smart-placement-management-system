@@ -2,8 +2,8 @@ export const INITIAL_STUDENTS = [
   {
     id: "std-101",
     rollNo: "21BCE1042",
-    name: "Rudra Sharma",
-    email: "rudra.sharma@campus.edu",
+    name: "Rudra Nagar",
+    email: "rudra.nagar@campus.edu",
     phone: "+91 98765 43210",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
     branch: "Computer Science & Engineering",
@@ -28,8 +28,8 @@ export const INITIAL_STUDENTS = [
       "Ranked Top 2% in LeetCode Weekly Contest (Rating 2140)",
       "1st Prize in Smart India Hackathon (College Level)"
     ],
-    linkedin: "https://linkedin.com/in/rudrasharma-demo",
-    github: "https://github.com/rudrasharma-dev",
+    linkedin: "https://linkedin.com/in/rudranagar-demo",
+    github: "https://github.com/rudranagar-dev",
     resumeUrl: "#",
     verified: true,
     placed: true,
@@ -578,7 +578,7 @@ export const INITIAL_INTERVIEWS = [
     driveId: "drv-1002",
     companyName: "Microsoft",
     studentId: "std-101",
-    studentName: "Rudra Sharma",
+    studentName: "Rudra Nagar",
     roundName: "Virtual Technical Round 2",
     date: "2026-10-30",
     time: "14:30 - 15:30 IST",
@@ -621,7 +621,7 @@ export const INITIAL_OFFERS = [
   {
     id: "ofr-901",
     studentId: "std-101",
-    studentName: "Rudra Sharma",
+    studentName: "Rudra Nagar",
     driveId: "drv-1001",
     companyId: "comp-1",
     companyName: "Google",
@@ -844,8 +844,8 @@ export const INTERVIEW_EXPERIENCES = [
 
 export const AUDIT_LOGS = [
   { id: "log-1", actor: "Dr. K. S. Verma (Admin)", action: "Approved campus drive for Google (42.0 LPA)", timestamp: "2026-10-20 10:15 IST", category: "Drives" },
-  { id: "log-2", actor: "Google HR", action: "Released offer letter for Rudra Sharma", timestamp: "2026-10-28 09:30 IST", category: "Offers" },
+  { id: "log-2", actor: "Google HR", action: "Released offer letter for Rudra Nagar", timestamp: "2026-10-28 09:30 IST", category: "Offers" },
   { id: "log-3", actor: "Priya Patel", action: "Accepted offer from Microsoft Azure (44.5 LPA)", timestamp: "2026-10-28 11:20 IST", category: "Offers" },
-  { id: "log-4", actor: "Dr. K. S. Verma (Admin)", action: "Verified academic documents for Rudra Sharma", timestamp: "2026-10-15 14:00 IST", category: "Verification" },
+  { id: "log-4", actor: "Dr. K. S. Verma (Admin)", action: "Verified academic documents for Rudra Nagar", timestamp: "2026-10-15 14:00 IST", category: "Verification" },
   { id: "log-5", actor: "System", action: "Automated eligibility validation executed for 420 students", timestamp: "2026-10-22 08:00 IST", category: "System" }
 ];

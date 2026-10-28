@@ -120,7 +120,7 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
-                    placeholder="e.g. Rudra Sharma"
+                    placeholder="e.g. Rudra Nagar"
                   />
                 </div>
                 <div>

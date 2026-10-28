@@ -18,7 +18,7 @@ export default function LoginPage({ setActivePage }) {
   const { login, switchRole, students, companies } = usePlacement();
 
   const [activeTab, setActiveTab] = useState('student'); // 'student' | 'company' | 'admin'
-  const [email, setEmail] = useState('rudra.sharma@campus.edu');
+  const [email, setEmail] = useState('rudra.nagar@campus.edu');
   const [password, setPassword] = useState('password123');
   const [forgotModalOpen, setForgotModalOpen] = useState(false);
   const [resetEmail, setResetEmail] = useState('');
@@ -27,7 +27,7 @@ export default function LoginPage({ setActivePage }) {
   const handleRoleTabChange = (role) => {
     setActiveTab(role);
     if (role === 'student') {
-      setEmail('rudra.sharma@campus.edu');
+      setEmail('rudra.nagar@campus.edu');
       setPassword('studentPass123');
     } else if (role === 'company') {
       setEmail('priya.nair@google.com');

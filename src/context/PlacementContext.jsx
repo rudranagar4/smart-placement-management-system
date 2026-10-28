@@ -45,12 +45,12 @@ export function PlacementProvider({ children }) {
         // fallback
       }
     }
-    // Default logged in as student Rudra Sharma for instant rich demo experience
+    // Default logged in as student Rudra Nagar for instant rich demo experience
     return {
       role: 'student',
       id: 'std-101',
-      name: 'Rudra Sharma',
-      email: 'rudra.sharma@campus.edu',
+      name: 'Rudra Nagar',
+      email: 'rudra.nagar@campus.edu',
       branch: 'Computer Science & Engineering',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80'
     };

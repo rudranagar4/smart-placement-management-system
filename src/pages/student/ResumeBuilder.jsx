@@ -19,7 +19,7 @@ export default function ResumeBuilder() {
   const { currentStudentData } = usePlacement();
   const student = currentStudentData || {};
 
-  const [uploadedResumeName, setUploadedResumeName] = useState('Rudra_Sharma_Campus_Resume_2026.pdf');
+  const [uploadedResumeName, setUploadedResumeName] = useState('Rudra_Nagar_Campus_Resume_2026.pdf');
   const [template, setTemplate] = useState('modern'); // 'modern' | 'minimal'
 
   const [resumeData, setResumeData] = useState({
